@@ -103,7 +103,7 @@ body.dark-theme{
 /*========== 
     Color changes in some parts of 
     the website, in light theme
-==========*/
+==========
 .dark-theme .button_gray{
   background-color: var(--container-color);
 }
@@ -114,9 +114,11 @@ body.dark-theme{
 
 .dark-theme .filters_content{
   background-color: var(--container-color);
-}
+}*/
 
-/*.dark-theme::-webkit-scrollbar{
+/*=============== Darktheme scrollbar ===============
+
+.dark-theme::-webkit-scrollbar{
   background-color: hsl(var(--hue), 8% 16%);;
 }
 
@@ -263,7 +265,8 @@ body.dark-theme{
 }
 
 .button:hover{
-  background-color: var(--first-color-alt);
+  /*background-color: var(--first-color-alt);*/
+  background-color: var(--text-color-light);
 }
 
 .button_small{
@@ -272,8 +275,9 @@ body.dark-theme{
 }
 
 .button_gray{
-  background-color: var(--text-color-lighten);
+  /*background-color: var(--text-color-lighten);*/
   color: var(--title-color);
+  background-color: var(--first-color);
 }
 
 .button_gray:hover{
@@ -283,7 +287,8 @@ body.dark-theme{
 /*=============== FILTERS TABS ===============*/
 .filters_content{
   margin: 2rem 0 2.5rem;
-  background-color: var(--text-color-lighten);
+  /*background-color: var(--text-color-lighten);*/
+  background-color: var(--first-color);
   padding: .375rem;
   border-radius: .75rem;
   display: flex;
@@ -307,7 +312,8 @@ body.dark-theme{
 }
 
 .filters_button:hover{
-  background-color: var(--body-color);
+  /*background-color: var(--body-color);*/
+  background-color: var(--text-color-light);
 }
 
 /*=============== PROJECTS ===============*/
